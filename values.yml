@@ -1,0 +1,6 @@
+# app (custom action server) specific settings
+app:
+    # name of the custom action server image to use
+    name: "pickoutsports-chatbot-actions"
+    # tag refers to the custom action server image tag
+    tag: "version-1"
