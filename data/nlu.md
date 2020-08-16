@@ -38,6 +38,9 @@
 - wo kommt [premier league]{"entity": "league", "value": " premier league"}
 - wo kommt die [bundesliga]{"entity": "league", "value": " bundesliga"}
 - wann und wo kommt [bundesliga]{"entity": "league", "value": " bundesliga"}
+- wo kommt[ premier liga](league)
+- wo kommt die [champions league](league)
+- wo kommt [champions league](league)
 
 ## intent:thanks
 - danke
@@ -60,19 +63,33 @@
 - ich bin hungrig
 - ich bin doof
 
-## intent: bot_challenge
- - Wie heißt du?
- - Wer bist du?
- - bist du echt?
- - bist du eine echte person
- - bist du ein bot
- - bist du ein roboter
- 
+## intent:bot_challenge
+- Wie heißt du?
+- Wer bist du?
+- bist du echt?
+- bist du eine echte person
+- bist du ein bot
+- bist du ein roboter
 
 ## synonym: bundesliga
 - bundesliga
 - fussball bundesliga
 - buli
+
+## synonym: champions league
+- champions league
+- cl
+- ucl
+- champions liga
+- championsleague
+
+## synonym: europa league
+- europa league
+- el
+- uel
+- europapokal
+- euroleague
+- euro league
 
 ## synonym: premier league
 - premier league
@@ -83,19 +100,4 @@
 - englische liga
 - bundesliga england
 - englischebundesliga
-
-## synonym: champions league
- - champions league
- - cl
- - ucl
- - champions liga
- - championsleague
-
-## synonym: europa league
- - europa league
- - el
- - uel
- - europapokal
- - euroleague
- - euro league
- 
+-  premier liga
