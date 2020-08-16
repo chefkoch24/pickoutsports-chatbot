@@ -63,6 +63,9 @@
 - ich bin hungrig
 - ich bin doof
 
+## out_of_scope
+ - out of scope
+
 ## intent:bot_challenge
 - Wie heißt du?
 - Wer bist du?

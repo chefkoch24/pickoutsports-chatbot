@@ -10,6 +10,8 @@ intents:
 - bot_challenge
 - deny
 - mood_unhappy
+- out_of_scope
+
 entities:
 - league
 responses:
