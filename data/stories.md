@@ -1,4 +1,4 @@
-## league
+## happy path
  * greet
   - utter_greet
   - utter_how_can_i_help_you
@@ -7,24 +7,9 @@
  * thanks
   - utter_goodbye
 
-## league
+## only league
 * inform{"league": "bundesliga"}
   - action_league
-  
-<!--## bundesliga 
- * greet
-  - utter_greet
-  - utter_how_can_i_help_you
- * bundesliga
-  - utter_bundesliga
- * thanks
-  - utter_goodbye
-
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
 
 ## sad path 1
 * greet

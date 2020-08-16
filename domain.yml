@@ -11,7 +11,6 @@ intents:
   - premier_league
   - inform
   - out_of_scope
-  
 
 actions:
 - utter_greet
@@ -21,8 +20,6 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
-- utter_bundesliga
-- utter_premier_league
 - action_league
 
 slots:
@@ -33,17 +30,10 @@ entities:
  - league
 
 
-
 responses:
   utter_greet:
   - text: "Hallo"
   - text: "Herzlich Willkommen"
-  
-  utter_bundesliga:
-  - text: "Die Bundesliga kommt auf Sky und DAZN"
-  
-  utter_premier_league:
-  - text: "Die Premier League kommt auf Sky"
   
   utter_how_can_i_help_you:
   - text: "Welche TV-Rechte darf ich dir veraten?"
