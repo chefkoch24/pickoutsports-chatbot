@@ -18,3 +18,7 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## thanks
+*thanks
+ - utter_glad_to_help

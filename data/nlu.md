@@ -50,10 +50,10 @@
 
 ## intent:thanks
 - danke
-- gerne
-- gern geschehen
-- kein problem
-- no problem
+- thx
+- thanks
+- danki
+- super
 
 ## intent:affirm
 - ja

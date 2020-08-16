@@ -32,6 +32,9 @@ responses:
   utter_iamabot:
   - text: Ich heiße Picky und bin der Chatbot von pickoutsports.de
   - text: Ich bin ein Bot namens Picky!
+  utter_glad_to_help:
+  - text: Meld dich gerne wenn du wieder eine Frage hast!
+  - text: Das freut mich!
 actions:
 - utter_greet
 - utter_how_can_i_help_you
