@@ -27,7 +27,7 @@
 - Übertragung [bundesliga](league)
 - Wo kommt [bundesliga](league)
 - Wer zeigt [bundesliga](league)
-- [bundesliga](league)
+- [bundesliga]{"entity": "league", "value": " bundesliga"}
 - [premier league](league)
 - [premier league](league) gucken
 - [premier league](league) schauen
@@ -38,12 +38,15 @@
 - wo kommt [premier league]{"entity": "league", "value": " premier league"}
 - wo kommt die [bundesliga]{"entity": "league", "value": " bundesliga"}
 - wann und wo kommt [bundesliga]{"entity": "league", "value": " bundesliga"}
-- wo kommt[ premier liga](league)
-- wo kommt die [champions league](league)
-- wo kommt [champions league](league)
+- wo kommt [premier liga](league)
+- wo kommt die [champions league]{"entity": "league", "value": " champions league"}
+- wo kommt champions league
 - wo kommt [bundesliga]{"entity": "league", "value": " bundesliga"}?
 - wo [el](league) gucken
 - wo kommt die [premier league]{"entity": "league", "value": " premier league"}[premier](league) league
+- [bundeslig](league)
+- wo kommt [bundesliga]{"entity": "league", "value": " bundesliga"}
+- [euro league](league)
 
 ## intent:thanks
 - danke
@@ -79,6 +82,7 @@
 - bundesliga
 - fussball bundesliga
 - buli
+- bundeslig
 
 ## synonym: champions league
 - champions league
