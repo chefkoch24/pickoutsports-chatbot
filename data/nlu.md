@@ -60,6 +60,15 @@
 - ich bin hungrig
 - ich bin doof
 
+## intent: bot_challenge
+ - Wie heißt du?
+ - Wer bist du?
+ - bist du echt?
+ - bist du eine echte person
+ - bist du ein bot
+ - bist du ein roboter
+ 
+
 ## synonym: bundesliga
 - bundesliga
 - fussball bundesliga
@@ -70,3 +79,23 @@
 - pl
 - englischer fussball
 - premier liga
+- premierleague
+- englische liga
+- bundesliga england
+- englischebundesliga
+
+## synonym: champions league
+ - champions league
+ - cl
+ - ucl
+ - champions liga
+ - championsleague
+
+## synonym: europa league
+ - europa league
+ - el
+ - uel
+ - europapokal
+ - euroleague
+ - euro league
+ 

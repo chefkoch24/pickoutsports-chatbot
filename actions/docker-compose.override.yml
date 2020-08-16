@@ -1,6 +1,5 @@
-
- version: '3.4'
- services:
+version: '3.4'
+services:
    app:
      image: 'rasa/rasa-sdk:latest'
      volumes:

@@ -26,9 +26,8 @@ responses:
   - text: Auf wiedersehen
   - text: Bis bald
   utter_iamabot:
-  - text: Ich bin ein Roboter (powered by pickoutsports)
-  utter_my_name:
   - text: Ich heiße Picky und bin der Chatbot von pickoutsports.de
+  - text: Ich bin ein Bot namens Picky!
 actions:
 - utter_greet
 - utter_how_can_i_help_you

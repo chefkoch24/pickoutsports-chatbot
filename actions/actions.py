@@ -28,6 +28,10 @@ class ActionLeague(Action):
             dispatcher.utter_message(text="DAZN & Sky")
         elif league == 'premier league':
             dispatcher.utter_message(text="Sky")
+        elif league == 'champions league':
+            dispatcher.utter_message(text="Sky & DAZN")
+        elif league == 'europa league':
+            dispatcher.utter_message(text="DAZN")
         else:
             dispatcher.utter_message(text="Diese Liga kenne ich leider nicht. Bitte gib eine Liga ein.")
 
