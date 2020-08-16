@@ -11,7 +11,6 @@
 - mahlzeit
 - servus
 
-
 ## intent:goodbye
 - bye
 - ciao
@@ -21,39 +20,6 @@
 - tschau
 - wiedersehen
 - wiederschauen
-
-<!--## intent:league
-- [bundesliga](league)
-- [premier league](league)
-- [champions league](league)
-- [europa league](league)
-
-
-<!--## intent:bundesliga
- - bundesliga
- - fussball bundesliga
- - deutschland fussball
- - wo kommt die bundesliga
- - wer zeigt bundesliga
- - wer überträgt bundesliga
- 
-<!--## intent:premier_league
- - premier league 
- - england fussball 
- - premier liga
- - pl 
- - Wo kommt die premier league
- - wer zeigt premier league
- - wer überträgt premier league
-
-<!--## intent:provider
-- [sky](provider)
-- [dazn](provider)
-- [sport1](provider)
-- [eurosport](provider)
-- [amazon](provider)
-- [sky sport](provider) -->
-
 
 ## intent:inform
 - Wer überträgt die [bundesliga](league)
@@ -69,30 +35,30 @@
 - ich möchte [premier league](league) schauen
 - ich möchte [premier league](league) gucken
 - ich möchte [premier league](league) sehen
+- wo kommt [premier league]{"entity": "league", "value": " premier league"}
+- wo kommt die [bundesliga]{"entity": "league", "value": " bundesliga"}
+- wann und wo kommt [bundesliga]{"entity": "league", "value": " bundesliga"}
 
 ## intent:thanks
- - danke
- - gerne
- - gern geschehen
- - kein problem
- - no problem
- 
+- danke
+- gerne
+- gern geschehen
+- kein problem
+- no problem
+
 ## intent:affirm
- - ja
- - klar
- - yes
- - j
- - ok
- - okay
- - kk
- 
-## out_of_scope
+- ja
+- klar
+- yes
+- j
+- ok
+- okay
+- kk
 - ich weiß nicht
 - was geht ab
 - wo bist du
 - ich bin hungrig
 - ich bin doof
-
 
 ## synonym: bundesliga
 - bundesliga
@@ -104,4 +70,3 @@
 - pl
 - englischer fussball
 - premier liga
-
