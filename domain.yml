@@ -1,61 +1,38 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - thanks
-  - league
-  - provider
-  - search_provider
-  - search_league
-  - bundesliga
-  - premier_league
-  - inform
-  - out_of_scope
-
-actions:
-- utter_greet
-- utter_how_can_i_help_you
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
-- action_league
-
-slots:
- league:
-   type: text 
-   
-entities:
- - league
-
-
-responses:
-  utter_greet:
-  - text: "Hallo"
-  - text: "Herzlich Willkommen"
-  
-  utter_how_can_i_help_you:
-  - text: "Welche TV-Rechte darf ich dir veraten?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Habe ich Dir geholfen?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Tschüss"
-  - text: "Auf wiedersehen"
-  - text: "Bis bald"
-
-  utter_iamabot:
-  - text: "Ich bin ein Roboter (powered by pickoutsports)"
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- thanks
+- inform
+- bot_challenge
+- deny
+- mood_unhappy
+entities:
+- league
+responses:
+  utter_greet:
+  - text: Hallo
+  - text: Herzlich Willkommen
+  utter_how_can_i_help_you:
+  - text: Welche TV-Rechte darf ich dir veraten?
+  - text: Wie kann ich dir behilflich sein?
+  utter_did_that_help:
+  - text: Habe ich Dir geholfen?
+  utter_goodbye:
+  - text: Tschüss
+  - text: Auf wiedersehen
+  - text: Bis bald
+  utter_iamabot:
+  - text: Ich bin ein Roboter (powered by pickoutsports)
+  utter_my_name:
+  - text: Ich heiße Picky und bin der Chatbot von pickoutsports.de
+actions:
+- utter_greet
+- utter_how_can_i_help_you
+- utter_did_that_help
+- utter_goodbye
+- utter_iamabot
+- action_league
