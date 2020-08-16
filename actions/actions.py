@@ -23,7 +23,8 @@ class ActionLeague(Action):
         league = tracker.get_slot("league")
         print(type(league))
         print(league)
-        league = league.lstrip()
+        if league is not None:
+            league = league.lstrip()
         if league == 'bundesliga':
             dispatcher.utter_message(text="DAZN & Sky")
         elif league == 'premier league':

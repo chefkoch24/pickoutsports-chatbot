@@ -41,6 +41,9 @@
 - wo kommt[ premier liga](league)
 - wo kommt die [champions league](league)
 - wo kommt [champions league](league)
+- wo kommt [bundesliga]{"entity": "league", "value": " bundesliga"}?
+- wo [el](league) gucken
+- wo kommt die [premier league]{"entity": "league", "value": " premier league"}[premier](league) league
 
 ## intent:thanks
 - danke
@@ -62,9 +65,7 @@
 - wo bist du
 - ich bin hungrig
 - ich bin doof
-
-## out_of_scope
- - out of scope
+- out of scope
 
 ## intent:bot_challenge
 - Wie heißt du?
@@ -103,4 +104,3 @@
 - englische liga
 - bundesliga england
 - englischebundesliga
--  premier liga

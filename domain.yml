@@ -11,9 +11,11 @@ intents:
 - deny
 - mood_unhappy
 - out_of_scope
-
 entities:
 - league
+slots:
+  league:
+    type: text
 responses:
   utter_greet:
   - text: Hallo

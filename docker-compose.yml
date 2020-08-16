@@ -1,4 +1,4 @@
-version: '1.0'
+version: '3.4'
 services:
   rasa:
     image: rasa/rasa:latest
@@ -9,6 +9,6 @@ services:
     command:
       - run
   app:
-    image: pickoutsports-chatbot-actions:version-1
-    expose: 5055       
-       
+    image: chefkoch24/pickoutsports-chatbot-actions:version-1
+    ports: 
+      - 5055:5055
