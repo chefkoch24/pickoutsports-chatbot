@@ -42,3 +42,4 @@ actions:
 - utter_goodbye
 - utter_iamabot
 - action_league
+- utter_glad_to_help
